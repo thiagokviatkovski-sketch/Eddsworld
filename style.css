@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Eastwood';
+    src: url(./font/Eastwood.ttf);
+}
+
 body {
     background-color: #94bf8a;
     font-family: Arial
@@ -12,6 +17,8 @@ header {
 
 header h1 {
     font-size: 50px;
+    font-family: Eastwood;
+    color: #33ff54;
 }
 
 header p {
@@ -32,6 +39,104 @@ nav a {
     color: #306e3a;
     text-decoration: none;
     margin: 14px;
-    font-weight: bold;
+    font-family: Eastwood
+}
+
+nav a:hover {
+    color: #163b1c;
+}
+
+/*conteudo principal*/
+main {
+
+    max-width: 1000xp;
+
+    margin: auto;
+    padding: 20Px;
+
+}
+
+/*seçoes*/
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    color: #2e6d39;
+    border-bottom: 5px solid #306e3a;
+    padding-bottom: 10px;
     font-family: Eastwood;
+}
+
+.banner img {
+
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+section h3 {
+    font-family: Eastwood;
+}
+
+.tom_azul {
+    color: #223f9c;
+}
+
+.matt_roxo {
+    color: #745f96;
+}
+
+.edd_verde {
+    color: #247514;
+}
+
+.tord_vermelho {
+    color: #d10202;
+}
+
+.personagens {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #76a16c;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #5b8f4e;
+    transform: scale(1.05);
+}
+
+.botao {
+    background-color: #276632;
+    color: #7c9b75;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 8px
+}
+
+.botao:hover {
+    background-color: #1a5023;
+}
+
+footer {
+    background-color: #266331;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    color: #94bf8a;
+}
+
+a {
+    font-family: Eastwood;
+    color: #286e35;
+    text-decoration: none;
 }
