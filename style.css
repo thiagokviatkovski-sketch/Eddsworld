@@ -1,7 +1,37 @@
-header {
-    background-color: #579e47;
-}
-
 body {
     background-color: #94bf8a;
+    font-family: Arial
+}
+
+header {
+    background-color: #579e47;
+    text-align: center;
+    border-radius: 24px;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 25px;
+}
+
+nav {
+    background-color: #d0f7d6;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+
+    top: 0;
+    border-radius: 14px;
+}
+
+nav a {
+    color: #306e3a;
+    text-decoration: none;
+    margin: 14px;
+    font-weight: bold;
+    font-family: Eastwood;
 }
