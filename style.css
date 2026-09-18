@@ -102,7 +102,7 @@ section h3 {
     flex-wrap: wrap;
 }
 
-.card {
+.cardEdd {
     background-color: #76a16c;
     padding: 20px;
     border-radius: 20px;
@@ -110,9 +110,60 @@ section h3 {
     text-align: center;
 }
 
-.card:hover {
+.cardEdd:hover {
     background-color: #5b8f4e;
     transform: scale(1.05);
+    background-image: url(./images/EddFundo.png);
+    transform: image;
+    color: #acffba;
+}
+
+.cardTom {
+    background-color: #76a16c;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.cardTom:hover {
+    background-color: #5b8f4e;
+    transform: scale(1.05);
+    background-image: url(./images/TomBanner.png);
+    transform: image;
+    color: rgb(191, 192, 255);
+}
+
+.cardMatt {
+    background-color: #76a16c;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.cardMatt:hover {
+    background-color: #5b8f4e;
+    transform: scale(1.05);
+    background-image: url(./images/MattBanner.png);
+    transform: image;
+    color: #c5acd4;
+}
+
+.cardTord {
+    background-color: #76a16c;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.cardTord:hover {
+    background-color: #5b8f4e;
+    transform: scale(1.05);
+    background-image: url(./images/TordBanner.png);
+    transform: image;
+    color: #490303;
 }
 
 .botao {
@@ -139,4 +190,37 @@ a {
     font-family: Eastwood;
     color: #286e35;
     text-decoration: none;
+}
+
+.tabela-container {
+    overflow-x: auto;
+
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 650;
+    width: 100%;
+    background-color: #286e35;
+}
+
+caption{
+    color: #1b4711;
+    font-weight: bold;
+    margin-bottom:  16px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #33ff54;
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #579e47;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #436d3a;
 }
