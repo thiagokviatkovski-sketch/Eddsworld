@@ -201,26 +201,26 @@ table {
     border-collapse: collapse;
     min-width: 650;
     width: 100%;
-    background-color: #286e35;
+    background-color: #4e8f5a;
 }
 
 caption{
-    color: #1b4711;
+    color: #266819;
     font-weight: bold;
     margin-bottom:  16px;
     text-align: center;
 }
 
 td {
-    border: 1px solid #33ff54;
+    border: 1px solid #114119;
     padding: 14px;
     text-align: left;
 }
 
 th {
-    background-color: #579e47;
+    background-color: #75b467;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #436d3a;
+    background-color: #65a059;
 }
