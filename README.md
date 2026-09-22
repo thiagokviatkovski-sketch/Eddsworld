@@ -11,7 +11,7 @@ Este projeto foi feito com uso de Html e css sobre as paginas web e o uso de pro
 - fizemas esrtilização em css
 - definimos cores, fontes, espaçamento e layout visual
 
-### Estrutura do Projeto
+## Estrutura do Projeto
 
 - `index.html` - estrutura da pagina
 - `style.css` - estilo e layout do site
