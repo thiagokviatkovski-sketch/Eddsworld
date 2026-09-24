@@ -13,16 +13,20 @@ header {
     text-align: center;
     border-radius: 24px;
     padding: 5px;
+    font-family: Eastwood;
 }
 
 header h1 {
     font-size: 50px;
     font-family: Eastwood;
     color: #33ff54;
+    font-weight: normal;
 }
 
 header p {
     font-size: 25px;
+    font-weight: normal;
+    color: #0d521a;
 }
 
 nav {
@@ -67,6 +71,7 @@ section h2 {
     border-bottom: 5px solid #306e3a;
     padding-bottom: 10px;
     font-family: Eastwood;
+    font-weight: normal;
 }
 
 .banner img {
@@ -184,6 +189,7 @@ footer {
     padding: 30px;
     margin-top: 50px;
     color: #94bf8a;
+    font-family: Eastwood;
 }
 
 a {
@@ -223,4 +229,87 @@ th {
 
 tbody tr:nth-child(even) {
     background-color: #65a059;
+}
+
+/*Parte do formulario*/
+
+form {
+    padding: 20px;
+    background-color: #5ab16d;
+}
+
+label, legend {
+    font-family: Eastwood;
+    color: #286e35;
+    font-weight: normal;
+
+}
+
+input, 
+select,
+text,
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Eastwood;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    background-color: #b6ddae;
+    color: #114119;
+    border: 2px solid #23662f;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    min-width: 1300px;
+}
+
+fieldset {
+    margin-bottom: 12px;
+    border: 1px solid #114119;
+}
+
+.opcao {
+    font-weight: normal;
+    font-family: Eastwood;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+button,
+.botao {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+    background-color: #4f9e3f;
+    color: #114119;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: #114119;
+    cursor: pointer;
+}
+
+button:hover,
+.butao:hover {
+    background-color: #3e882f;
+
 }
