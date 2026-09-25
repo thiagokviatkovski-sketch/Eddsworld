@@ -313,3 +313,33 @@ button:hover,
     background-color: #3e882f;
 
 }
+
+/*Video e redimencionamento*/
+
+video {
+    width: 100%;
+    background-color: black;
+    display: block;
+    height: 405px;
+    max-height: none;
+    width: 720px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    font-weight: normal;
+    color: #114119;
+}
+
+h2 {
+    font-family: Eastwood;
+    font-weight: normal;
+    color: #16331b;
+}
+
+
+
